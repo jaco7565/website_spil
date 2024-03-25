@@ -1,0 +1,1012 @@
+nav {
+    padding: 2px;
+}
+
+nav a {
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #221F1F;
+    margin-right: 20px;
+}
+
+body {
+    background-color: lightgray;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin: 0 1em;
+
+}
+
+p {
+    color: #221F1F;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+header {
+    padding: 2em;
+}
+
+h2 {
+    color: coral;
+}
+
+h3 {
+    color: coral;
+}
+
+
+
+#screen {
+    width: 100vw;
+    height: 56.25vw;
+    background-color: aqua;
+    position: relative;
+
+}
+
+
+
+#game {
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+#start {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(svg/start_skearm.svg);
+    background-size: cover;
+}
+
+#royalty {
+    color: aqua;
+}
+
+
+
+#play {
+    position: absolute;
+    top: 48vw;
+    left: 5vw;
+    width: 14vw;
+    height: 8vw;
+    background-image: url(svg_ui/play.svg);
+    background-size: cover;
+
+}
+
+
+#game_over {
+    background-image: url(svg/game_over_taber.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+
+}
+
+#level_complete {
+
+    background-image: url(svg/game_over_vinder.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+
+}
+
+#level_complete_points {
+    position: absolute;
+    top: 36vw;
+    left: 71vw;
+    font-size: 2.5vw;
+    font-family: monospace;
+    color: greenyellow;
+}
+
+#game_over_points {
+    position: absolute;
+    top: 36vw;
+    left: 71vw;
+    font-size: 2.5vw;
+    font-family: monospace;
+    color: greenyellow;
+}
+
+#game_background {
+    background-image: url(svg/spille_skearm.svg);
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#game_elements {
+    width: 74%;
+    height: 56%;
+    position: absolute;
+    top: 12.5vw;
+    left: 15.9vw;
+    overflow: hidden;
+
+}
+
+
+
+#genstart2 {
+    position: absolute;
+    top: 42.3vw;
+    left: 76.3vw;
+    width: 14vw;
+    height: 8vw;
+    background-image: url(svg_ui/spil_igen_knap.svg);
+    background-size: cover;
+
+}
+
+
+#genstart1 {
+    position: absolute;
+    top: 42vw;
+    left: 69.3vw;
+    width: 14vw;
+    height: 8vw;
+    background-image: url(svg_ui/spil_igen_knap.svg);
+    background-size: cover;
+
+}
+
+
+
+
+.hide {
+    display: none;
+}
+
+#arm_left_container {
+    position: absolute;
+    top: 21.5vw;
+    left: 78vw;
+
+
+}
+
+
+#arm_left_sprite {
+    width: 5.217vw;
+    height: 10vw;
+    background-image: url(svg_elementer/arm_left.svg);
+    background-size: cover;
+    transform: rotate(90deg);
+
+
+}
+
+
+
+#arm_right_container {
+    position: absolute;
+    top: 3vw;
+    left: -10vw;
+
+}
+
+#arm_right_sprite {
+    width: 7.936vw;
+    height: 13vw;
+    background-image: url(svg_elementer/arm_right.svg);
+    background-size: cover;
+    transform: rotate(268deg);
+
+}
+
+
+#ben_left_container {
+    position: absolute;
+    top: 4vw;
+    left: -10vw;
+
+}
+
+
+#ben_left_sprite {
+    width: 5.625vw;
+    height: 10vw;
+    background-image: url(svg_elementer/ben_left.svg);
+    background-size: cover;
+    transform: rotate(90deg);
+
+
+
+}
+
+
+#ben_right_container {
+    position: absolute;
+    top: 21.5vw;
+    left: 78vw;
+}
+
+#ben_right_sprite {
+    width: 4.074vw;
+    height: 10vw;
+    background-image: url(svg_elementer/ben_right.svg);
+    background-size: cover;
+    transform: rotate(268deg);
+
+
+}
+
+#elefandt_right_container {
+    position: absolute;
+    top: 20.5vw;
+    left: 76vw;
+
+
+}
+
+
+#elefandt_right_sprite {
+    width: 5.217vw;
+    height: 10vw;
+    background-image: url(svg_elementer/elefandt_right.svg);
+    background-size: cover;
+    transform: rotate(90deg);
+
+
+}
+
+
+#elefandt_left_container {
+    position: absolute;
+    top: 2vw;
+    left: -10vw;
+
+}
+
+#elefandt_left_sprite {
+    width: 4.484vw;
+    height: 8vw;
+    background-image: url(svg_elementer/elefandt_left.svg);
+    background-size: cover;
+
+
+}
+
+#eyes_container {
+    position: absolute;
+    top: 21.5vw;
+    left: 76vw;
+
+}
+
+#eyes_sprite {
+    width: 4.151vw;
+    height: 6vw;
+    background-image: url(svg_elementer/eyes.svg);
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+#fugl_left_container {
+    position: absolute;
+    top: 21.5vw;
+    left: 78vw;
+
+
+}
+
+
+#fugl_left_sprite {
+    width: 4.466vw;
+    height: 10vw;
+    background-image: url(svg_elementer/fugl_left.svg);
+    background-size: cover;
+    transform: rotate(90deg);
+
+
+}
+
+
+#fugl_right_container {
+    position: absolute;
+    top: 4vw;
+    left: -10vw;
+}
+
+#fugl_right_sprite {
+    width: 4.329vw;
+    height: 10vw;
+    background-image: url(svg_elementer/fugl_right.svg);
+    background-size: cover;
+    transform: rotate(268deg);
+
+
+}
+
+
+
+
+#hale_container {
+    position: absolute;
+    top: 4vw;
+    left: -10vw;
+}
+
+#hale_sprite {
+    width: 8.056vw;
+    height: 7vw;
+    background-image: url(svg_elementer/hale.svg);
+    background-size: cover;
+
+}
+
+
+
+
+
+#havfrue_container {
+    position: absolute;
+    top: 7vw;
+    left: -10vw;
+}
+
+#havfrue_sprite {
+    width: 10vw;
+    height: 3.798vw;
+    background-image: url(svg_elementer/havfrue.svg);
+    background-size: cover;
+
+}
+
+
+
+
+#hovede_container {
+    position: absolute;
+    top: 6vw;
+    left: -10vw;
+}
+
+#hovede_sprite {
+    width: 4.25vw;
+    height: 6vw;
+    background-image: url(svg_elementer/hovede.svg);
+    background-size: cover;
+    transform: rotate(90deg);
+
+}
+
+
+
+
+#krop_container {
+    position: absolute;
+    top: 21.5vw;
+    left: 76vw;
+
+}
+
+#krop_sprite {
+    width: 6.857vw;
+    height: 9vw;
+    background-image: url(svg_elementer/krop.svg);
+    background-size: cover;
+
+}
+
+
+
+
+#tyr_container {
+    position: absolute;
+    top: 21.5vw;
+    left: 76vw;
+}
+
+#tyr_sprite {
+    width: 7.016vw;
+    height: 6vw;
+    background-image: url(svg_elementer/tyr.svg);
+    background-size: cover;
+    transform: rotate(-90deg);
+
+
+}
+
+/*------------------------------------- UI-elementer------------------------------------------*/
+
+#game_ui {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+
+
+#liv_container {
+    position: absolute;
+    top: 2vw;
+    left: 1vw;
+    display: flex;
+
+}
+
+#liv1 {
+    width: 7vw;
+    height: 6vw;
+    background-image: url(svg_ui/heart.svg);
+    background-size: cover;
+
+}
+
+#liv2 {
+    width: 7vw;
+    height: 6vw;
+    background-image: url(svg_ui/heart.svg);
+    background-size: cover;
+
+}
+
+#liv3 {
+    width: 7vw;
+    height: 6vw;
+    background-image: url(svg_ui/heart.svg);
+    background-size: cover;
+
+}
+
+
+.gray {
+    filter: grayscale(100%);
+}
+
+
+
+
+#point_container {
+    position: absolute;
+    top: 1vw;
+    left: 78vw;
+    background-color: #faebd7;
+    display: flex;
+    border: 0.1vw solid black;
+    font-size: 1.5vw;
+    font-family: monospace;
+
+}
+
+#point_sprite {
+    width: 0vw;
+    height: 0.09vw;
+    margin: 2vw;
+    /*
+    background-image: url(svg_ui/point.svg);
+    background-size: cover;
+*/
+
+}
+
+
+#tid_container {
+    position: absolute;
+    width: 3vw;
+    height: 23vw;
+    border: 4px solid black;
+    top: -7vw;
+    left: 47vw;
+    rotate: 90deg;
+
+}
+
+
+#tid_sprite {
+
+    width: 3vw;
+    height: 23vw;
+
+    background-color: lime;
+    transform-origin: center bottom;
+}
+
+
+
+
+.time {
+    animation-name: time_kf;
+    animation-duration: 15s;
+    animation-fill-mode: both;
+}
+
+@keyframes time_kf {
+    0% {
+        transform: scaleY(1);
+        background-color: lime;
+    }
+
+    100% {
+        transform: scaleY(0);
+        background-color: red;
+    }
+}
+
+----------------------------------------
+
+/*animation*/
+---------------------------------------- .left_arm {
+    animation-name: left_arm_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+}
+
+
+@keyframes left_arm_kf {
+    from {
+        transform: translateY(-26.5vw);
+    }
+
+    to {
+        transform: translateY(59vw);
+    }
+}
+
+
+
+
+
+
+
+.right_arm {
+    animation-name: right_arm_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+
+}
+
+
+@keyframes right_arm_kf {
+    from {
+        transform: translateY(-26.5vw);
+    }
+
+    to {
+        transform: translateY(71vw);
+    }
+}
+
+
+.left_ben {
+    animation-name: left_ben_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+
+}
+
+
+@keyframes left_ben_kf {
+    from {
+        transform: translateY(60vw);
+    }
+
+    to {
+        transform: translateY(-47vw);
+    }
+}
+
+
+.right_ben {
+    animation-name: right_ben_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+
+}
+
+
+@keyframes right_ben_kf {
+    from {
+        transform: translateY(35.5vw);
+    }
+
+    to {
+        transform: translateY(-51vw);
+    }
+}
+
+
+.left_elefandt {
+    animation-name: left_elefandt_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+
+}
+
+
+@keyframes left_elefandt_kf {
+    from {
+        transform: translateX(-26.5vw);
+    }
+
+    to {
+        transform: translateX(71vw);
+    }
+}
+
+
+
+.right_elefandt {
+    animation-name: right_elefandt_kf;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+
+}
+
+
+@keyframes right_elefandt_kf {
+    from {
+        transform: translateX(21vw);
+    }
+
+    to {
+        transform: translateX(-70vw);
+    }
+}
+
+
+
+
+.left_fugl {
+    animation-name: left_fugl_kf;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+
+}
+
+
+@keyframes left_fugl_kf {
+    from {
+        transform: translateY(-31vw);
+    }
+
+    to {
+        transform: translateY(70vw);
+    }
+}
+
+
+.right_fugl {
+    animation-name: right_fugl_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+
+}
+
+
+@keyframes right_fugl_kf {
+    from {
+        transform: translateY(-26.5vw);
+    }
+
+    to {
+        transform: translateY(71vw);
+    }
+}
+
+
+
+
+
+
+
+
+.eyes_2 {
+    animation-name: eyes_2_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+}
+
+
+@keyframes eyes_2_kf {
+    from {
+        transform: translateX(39.5vw);
+    }
+
+    to {
+        transform: translateX(-59vw);
+    }
+}
+
+.hale_2 {
+    animation-name: hale_2_kf;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+}
+
+
+@keyframes hale_2_kf {
+    from {
+        transform: translateX(-39.5vw);
+    }
+
+    to {
+        transform: translateX(59vw);
+    }
+}
+
+
+
+
+
+
+
+
+
+.flyv_2 {
+    animation-name: flyv_2_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+}
+
+
+@keyframes flyv_2_kf {
+
+    100% {
+        transform: translateX(86vw);
+    }
+}
+
+
+
+
+
+
+.hovede_2 {
+    animation-name: hovede_2_kf;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+}
+
+
+@keyframes hovede_2_kf {
+    from {
+        transform: translateY(89.5vw);
+    }
+
+    to {
+        transform: translateY(-59vw);
+    }
+}
+
+
+
+
+
+
+
+
+.flyv {
+    animation-name: flyv_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    animation-fill-mode: both;
+
+}
+
+
+@keyframes flyv_kf {
+
+    100% {
+        transform: translateX(-84vw);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.tyr_2 {
+    animation-name: tyr_2_kf;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+}
+
+
+@keyframes tyr_2_kf {
+    from {
+        transform: translateY(65vw);
+    }
+
+    to {
+        transform: translateY(-80vw);
+    }
+}
+
+
+
+
+
+.pause {
+    animation-play-state: paused;
+}
+
+
+
+
+
+
+.forsvind {
+    animation-name: forsvind_kf;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+
+}
+
+
+@keyframes forsvind_kf {
+    100% {
+        opacity: 0;
+    }
+
+    0% {
+        opacity: 2;
+    }
+}
+
+
+
+.forsvind_bad {
+    animation-name: forsvind_bad_kf;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+
+}
+
+
+@keyframes forsvind_bad_kf {
+    100% {
+        transform: scale(0);
+    }
+
+    0% {
+        transform: scale(4);
+    }
+}
+
+
+
+
+
+
+.forsvind_god {
+    animation-name: forsvind_god_kf;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+
+}
+
+
+@keyframes forsvind_god_kf {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+
+/******************   delay  ************************/
+
+.delay1 {
+    animation-delay: 1s;
+}
+
+.delay2 {
+    animation-delay: 0.7s;
+}
+
+.delay3 {
+    animation-delay: 1.2s;
+}
+
+.delay4 {
+    animation-delay: 1.7s;
+}
+
+
+
+.delay5 {
+    animation-delay: 2.2s;
+}
+
+
+
+.delay6 {
+    animation-delay: 2.7s;
+}
+
+
+
+.delay7 {
+    animation-delay: 3.2s;
+}
+
+
+
+
+
+
+
+
+
+/*kso*/

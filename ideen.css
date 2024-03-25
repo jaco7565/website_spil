@@ -1,0 +1,53 @@
+nav {
+    padding: 2px;
+}
+
+nav a {
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #221F1F;
+    margin-right: 20px;
+}
+
+body {
+    background-color: lightgray;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin: 0 1em;
+
+}
+
+p {
+    color: #221F1F;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+header {
+    padding: 2em;
+}
+
+h2 {
+    color: coral;
+}
+
+h3 {
+    color: coral;
+}
+
+
+#bane img {
+    max-width: 40%;
+}
+
+#elementer img {
+    max-width: 30%;
+}
